@@ -10,3 +10,5 @@
 [Урок 9](https://max72rus.github.io/leasson_9/ "ссылка на сайт") - Верстка при помощи bootstrap3.
 
 [Урок 10](https://max72rus.github.io/leasson_9/ "ссылка на сайт") - Верстка при помощи bootstrap3.
+
+[Урок 13](https://max72rus.github.io/leason13// "ссылка на сайт") -  Адаптивная верстка.

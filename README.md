@@ -15,5 +15,6 @@
 
 [Урок 13](https://max72rus.github.io/leason14/ "ссылка на сайт") -  Подготовка файлов. Верстка шапки сайта.
 
+[Урок 14](https://max72rus.github.io/lesson14/) - Подключение шрифтов
 
-[Урок 14](https://max72rus.github.io/lesson14/) - Подключение шрифтов 
+[Урок 14](https://max72rus.github.io/lesson15/) - Псевдоклассы и псевдоэлементы

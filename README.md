@@ -17,4 +17,4 @@
 
 [Урок 14](https://max72rus.github.io/lesson14/) - Подключение шрифтов
 
-[Урок 14](https://max72rus.github.io/lesson15/) - Псевдоклассы и псевдоэлементы
+[Урок 15](https://max72rus.github.io/lesson15/) - Псевдоклассы и псевдоэлементы

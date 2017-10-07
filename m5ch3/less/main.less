@@ -48,6 +48,10 @@ body {
 }
 a:hover {
 	text-decoration: none;
+	color: blue
+}
+a { 
+ color: black; 
 }
 button, input, a{
 	&:focus {
@@ -72,6 +76,12 @@ button, input, a{
 section {
 	padding: 10rem 0;	
 }
+.section-header {
+	margin: 2rem 0 10rem;
+	.bold();
+	font-size: 3.6rem;
+	text-align: center;
+}
 // main
 .main {
 	padding: 3rem 0 5rem;
@@ -89,6 +99,7 @@ section {
 		line-height: 1.45;
 		text-transform: uppercase;
 		margin-top: 0;
+		font-weight: 700;
 		}
 	}
 	// Подзаголовок
@@ -183,6 +194,47 @@ section {
 	height: 7rem;
 	line-height: 7rem;
 	color: @text;
+}
+// Оформление секции с преимуществами
+.features {
+	&-block {
+		text-align: center;
+	h3 {
+		.bold();
+		font-size: 2rem;
+		margin-bottom: 3rem;
+	}
+	p {
+		display: inline-block;
+		width: 80%;
+		font-size: 1.4rem;
+	}
+	}
+	&-img {
+		height: 8rem;
+		margin-bottom: 3rem;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+.slick-active {
+	outline: none;
+}
+.arrow {
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+	background-size: 70%;
+}
+.prev{
+	left: 0;
+	background: url(..img/)
 }
 @media (max-width: 991px) {
 	.main {

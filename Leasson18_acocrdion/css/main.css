@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: #0bbaf0;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  color: #0bbaf0;
+}
+.panel-default > .panel-heading {
+  background-color: #0bbaf0;
+}
+body {
+  background-image: url(../img/new.jpg);
+}
+a:hover {
+  text-decoration: none;
+}

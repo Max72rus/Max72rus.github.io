@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+}
+.modal {
+ color: url(../img/bg.jpg)
+}
+.modal-header {
+background-color:  #eaf0f3;
+}
+.btn-yes {
+  background-color: #41607c;
+}
+.btn-no {
+  background-color: #7e97a4;
+}

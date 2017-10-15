@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leasson17</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="Less/main.css">
+  </head>
+  <body>
+   <div class="container">
+     <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+ Удалить
+</button>
+
+<!-- Мобальное меню -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <!-- Белое модальное окно -->
+    <div class="modal-dialog" role="document">
+      <!-- Содержимое ока -->
+      <div class="modal-content">
+        <!-- Шапка модального окна -->
+        <div class="modal-header">
+          <!-- Кнопка закрыть -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <!-- Подзаголовок -->
+          <h4 class="modal-title">Хотите удалить файл?</h4>
+        </div>
+        <!-- Тело модального окна -->
+        <div class="modal-body">
+         <button class="btn btn-yes" data-dismiss="modal">Да</button>
+         <button class="btn btn-no" data-dismiss="modal">Нет</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+   </div>
+      
+    <!-- Библиотека JQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!-- Для модальных окон от bootstrap нужно подключить js-файлы -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
